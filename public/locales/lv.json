@@ -1,0 +1,72 @@
+{
+  "common": {
+    "loading": "Ielādē...",
+    "yes": "Jā",
+    "no": "Nē"
+  },
+  "navigation": {
+    "home": "Sākums",
+    "profile": "Profils",
+    "myGames": "Manas spēles",
+    "publicGroups": "Publiskās grupas",
+    "myGroups": "Manas grupas",
+    "calendar": "Kalendārs",
+    "events": "Notikumi",
+    "links": "Saites",
+    "groupGames": "Spēles",
+    "groupEvents": "Pasākumi",
+    "groupMembers": "Dalībnieki",
+    "showLess": "Rādīt mazāk",
+    "showAllGroups": "Rādīt visas grupas"
+  },
+  "auth": {
+    "login": "Pieslēgties",
+    "logout": "Atslēgties",
+    "loginAs": "Pieslēgties kā"
+  },
+  "profile": {
+    "editProfile": "Rediģēt profilu",
+    "save": "Saglabāt",
+    "cancel": "Atcelt",
+    "name": "Vārds",
+    "surname": "Uzvārds",
+    "bggName": "BGG vārds",
+    "bggId": "BGG Id",
+    "ownedSince": "Īpašumā kopš",
+    "canTeachRules": "Var iemācīt noteikumus",
+    "discordId": "Discord ID",
+    "myRecentGames": "Manas nesenās spēles",
+    "viewAllGames": "Skatīt visas manas spēles",
+    "backToHome": "Atpakaļ uz sākumu",
+    "profile": "Profils",
+    "theme": "Tēma",
+    "myGroups": "Manas grupas"
+  },
+  "games": {
+    "ownedSince": "Pieder kopš",
+    "canTeachRules": "Var mācīt noteikumus",
+    "bggId": "BGG ID"
+  },
+  "groups": {
+    "showLess": "Rādīt mazāk",
+    "showAllGroups": "Rādīt visas grupas",
+    "members": "Dalībnieki"
+  },
+  "theme": {
+    "label": "Tēma",
+    "light": "Gaišs",
+    "dark": "Tumšs"
+  },
+  "language": {
+    "label": "Valoda"
+  },
+  "login": {
+    "login": "Pieteikties",
+    "loginAs": "Pieteicies kā",
+    "name": "Vārds",
+    "surname": "Uzvārds"
+  },
+  "welcomeMessage": "Laipni lūdzam mūsu mobilajā tīmekļa lietotnē",
+  "navigationInstruction": "Noklikšķiniet uz izvēlnes ikonas augšējā kreisajā stūrī, lai navigētu."
+}
+

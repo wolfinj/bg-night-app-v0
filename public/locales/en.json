@@ -1,0 +1,72 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "navigation": {
+    "home": "Home",
+    "profile": "Profile",
+    "myGames": "My Games",
+    "publicGroups": "Public Groups",
+    "myGroups": "My Groups",
+    "calendar": "Calendar",
+    "events": "Events",
+    "links": "Links",
+    "groupGames": "Games",
+    "groupEvents": "Events",
+    "groupMembers": "Members",
+    "showLess": "Show less",
+    "showAllGroups": "Show all groups"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "loginAs": "Login as"
+  },
+  "profile": {
+    "editProfile": "Edit Profile",
+    "save": "Save",
+    "cancel": "Cancel",
+    "name": "Name",
+    "surname": "Surname",
+    "bggName": "BGG Name",
+    "bggId": "BGG Id",
+    "ownedSince": "Owned since",
+    "canTeachRules": "Can teach rules",
+    "discordId": "Discord ID",
+    "myRecentGames": "My Recent Games",
+    "viewAllGames": "View all my games",
+    "backToHome": "Back to Home",
+    "profile": "Profile",
+    "theme": "Theme",
+    "myGroups": "My groups"
+  },
+  "games": {
+    "ownedSince": "Owned since",
+    "canTeachRules": "Can teach rules",
+    "bggId": "BGG ID"
+  },
+  "groups": {
+    "showLess": "Show Less",
+    "showAllGroups": "Show All Groups",
+    "members": "Members"
+  },
+  "theme": {
+    "label": "Theme",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "language": {
+    "label": "Language"
+  },
+  "login": {
+    "login": "Login",
+    "loginAs": "Login as",
+    "name": "Name",
+    "surname": "Surname"
+  },
+  "welcomeMessage": "Welcome to Our Mobile Web App",
+  "navigationInstruction": "Click the menu icon in the top-left corner to navigate."
+}
+
