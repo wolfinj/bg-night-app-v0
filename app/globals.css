@@ -3,83 +3,89 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
-    --background: #ffffff;
-    --foreground: #020816;
+    :root {
+        --background: #ffffff;
+        --foreground: #000000;
 
-    --card: #ffffff;
-    --card-foreground: #020816;
+        --card: #ffffff;
+        --card-foreground: #000000;
 
-    --popover: #ffffff;
-    --popover-foreground: #020816;
+        --popover: #ffffff;
+        --popover-foreground: #000000;
 
-    --primary: #0f172a;
-    --primary-foreground: #f7f9fc;
+        --primary: #0f172a;
+        --primary-foreground: #f7f9fc;
 
-    --secondary: #f1f5f9;
-    --secondary-foreground: #0f172a;
+        --secondary: #f1f5f9;
+        --secondary-foreground: #0f172a;
 
-    --muted: #f1f5f9;
-    --muted-foreground: #64748b;
+        --muted: #f1f5f9;
+        --muted-foreground: #64748b;
 
-    --accent: #f1f5f9;
-    --accent-foreground: #0f172a;
+        --accent: #f1f5f9;
+        --accent-foreground: #0f172a;
 
-    --destructive: #ef4444;
-    --destructive-foreground: #f7f9fc;
+        --destructive: #ef4444;
+        --destructive-foreground: #f7f9fc;
 
-    --border: #e2e8f0;
-    --input: #e2e8f0;
-    --ring: #020816;
+        --border: #e2e8f0;
+        --input: #e2e8f0;
+        --ring: #000000;
 
-    --radius: 0.5rem;
-  }
+        --radius: 0.5rem;
+    }
 
-  .dark {
-    --background: #020816;
-    --foreground: #f7f9fc;
+    .dark {
+        --background: #000000;
+        --foreground: #f7f9fc;
 
-    --card: #020816;
-    --card-foreground: #f7f9fc;
+        --card: #000000;
+        --card-foreground: #f7f9fc;
 
-    --popover: #020816;
-    --popover-foreground: #f7f9fc;
+        --popover: #000000;
+        --popover-foreground: #f7f9fc;
 
-    --primary: #f7f9fc;
-    --primary-foreground: #0f172a;
+        --primary: #f7f9fc;
+        --primary-foreground: #0f172a;
 
-    --secondary: #1e293b;
-    --secondary-foreground: #f7f9fc;
+        --secondary: #1e293b;
+        --secondary-foreground: #f7f9fc;
 
-    --muted: #1e293b;
-    --muted-foreground: #94a3b8;
+        --muted: #1e293b;
+        --muted-foreground: #94a3b8;
 
-    --accent: #1e293b;
-    --accent-foreground: #f7f9fc;
+        --accent: #1e293b;
+        --accent-foreground: #f7f9fc;
 
-    --destructive: #8b1c1c;
-    --destructive-foreground: #f7f9fc;
+        --destructive: #8b1c1c;
+        --destructive-foreground: #f7f9fc;
 
-    --border: #1e293b;
-    --input: #1e293b;
-    --ring: #cbd5e1;
-  }
+        --border: #1e293b;
+        --input: #1e293b;
+        --ring: #cbd5e1;
+    }
 }
 
 @layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
+    * {
+        @apply border-border;
+    }
+
+    body {
+        @apply bg-background text-foreground;
+    }
+}
+
+body {
+    background-color: var(--background); /* ensure background color */
+    color: var(--foreground);
 }
 
 .scrollbar-hide {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 .scrollbar-hide::-webkit-scrollbar {
-  display: none;
+    display: none;
 }

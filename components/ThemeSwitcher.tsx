@@ -1,21 +1,20 @@
 'use client'
 
 import React from 'react'
-import { useTheme } from '@/context/ThemeContext'
+import { useTheme } from 'next-themes' // Use next-themes instead of custom ThemeContext
 import { useAuth } from '@/context/AuthContext'
 import { useLanguage } from '@/context/LanguageContext'
 import { Button } from "@/components/ui/button"
 import { Moon, Sun } from 'lucide-react'
 
 export function ThemeSwitcher() {
-  const { theme, setTheme } = useTheme()
+  const { theme, setTheme } = useTheme() // next-themes hook
   const { currentUser } = useAuth()
   const { dict } = useLanguage()
 
   const toggleTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light'
-    setTheme(newTheme)
-    // Here you would typically update the user's profile in your backend
+    setTheme(newTheme) // next-themes handles localStorage for you
     console.log(`Theme updated for user ${currentUser?.id}: ${newTheme}`)
   }
 
@@ -26,4 +25,3 @@ export function ThemeSwitcher() {
       </Button>
   )
 }
-
